@@ -20,6 +20,7 @@
     "express": "^4.14.0"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
     "chi": "0.0.10",
     "mocha": "^1.16.2"
   }
