@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test1": "echo \"Error: no test specified\" && exit 1",
+    "test2": "./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,9 @@
   },
   "homepage": "https://github.com/vhantzis/travisci#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "chai": "^3.5.0",
+    "express": "^4.14.0",
+    "mocha": "^3.1.2"
   },
   "devDependencies": {
     "chai": "^3.5.0",
